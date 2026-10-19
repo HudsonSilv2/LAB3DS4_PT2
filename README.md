@@ -55,3 +55,5 @@ Usamos índices iniciando em zero. As colunas 1 e 7 são preenchidas de cima a b
 · █ · · · · · █ ·
 · █ · · · · · █ ·
 ```
+IMAGE: 
+<img width="506" height="529" alt="image" src="https://github.com/user-attachments/assets/789cd5d9-7362-43da-9a5c-1622e4df42ae" />
