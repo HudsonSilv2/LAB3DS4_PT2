@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Atividade de fundamentos de JavaScript: matriz 9 por 9 e desenho da letra H." />
+  <title>Matriz 9x9 | Fundamentos de JavaScript</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="./index.html" aria-label="Página inicial"> <span class="brand-mark">H</span>
+        <span><span class="brand-light"> LAB</span></a>
+      <span class="course-label">Matriz</span>
+    </header>
+
+    <main class="content">
+      <section class="intro" aria-labelledby="page-title">
+        <div class="toolbar" aria-label="Controles da matriz">
+          <button type="button" id="drawButton" class="button button-primary"><span aria-hidden="true">✦</span> Desenhar
+            letra H</button>
+          <button type="button" id="clearButton" class="button button-secondary"><span aria-hidden="true">↺</span>
+            Limpar matriz</button>
+        </div>
+      </section>
+
+      <section class="board-panel" aria-labelledby="board-title">
+        <div class="panel-heading">
+          <div>
+            <div class="panel-kicker">ÁREA INTERATIVA</div>
+            <h2 id="board-title">Matriz <span>9 × 9</span></h2>
+          </div>
+          <div class="status" id="statusIndicator"><span class="status-dot"></span><span id="statusText">Pronto para
+              desenhar</span></div>
+        </div>
+        <div class="board-wrap">
+          <div id="matrix" class="matrix" role="grid" aria-label="Matriz de nove linhas e nove colunas"></div>
+        </div>
+        <div class="panel-footer"><span><span class="legend-swatch"></span> Célula preenchida</span><span
+            id="filledCount" aria-live="polite">0 de 81 células</span></div>
+      </section>
+    </main>
+
+    <footer class="footer"><span>© 2026 · Hudson</span></footer>
+  </div>
+</body>
+
+</html>
